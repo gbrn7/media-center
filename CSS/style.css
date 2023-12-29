@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+div.halaman{
+	font-size:16px;
+	text-align: center;
+	padding: 30px;	
+}
+    
+.tabel, td, th {
+	border: 1px solid;
+}
+.tabel tr{
+    align-items: center;
+}
+
+.tabel1 tr td{
+	border: 0px ;
+}
+.tabel1{
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.tabel2 tr td{
+	border: 0px ;
+}
+.tabel2{
+    margin-top: auto;
+    margin-left: auto;
+	margin-right: auto;
+    margin-bottom: auto;
+}
+.polinema{
+    position: relative;
+    margin-left: 90px;
+}
+
+th{
+	background-color: black;
+    color: white;
+}
+  
+.tabel{
+	width: 95%;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;  
+}
+
+a{
+    text-align: center;
+}
+
+a.button {
+    padding: 0.5px 20px;
+    width: 100%;
+    background-color: #0084ff; 
+    color: black; 
+    text-align: center;  
+}
+
+a.button2 {
+    padding: 0.5px 20px;
+    width: 100%;
+    background-color: #0084ff; 
+    color: black; 
+    text-align: center;  
+}

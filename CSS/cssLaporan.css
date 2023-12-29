@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    overflow: auto;
+    background-color: rgb(0, 140, 255)  ;
+    background-size: cover;
+  }
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+    padding: 10px;
+    background: rgb(0, 140, 255);
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.logo{
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    margin-right: auto;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.link {
+    list-style: none;
+    margin-right: 50px;
+}
+.link li{
+    display: inline-block;
+    padding: 2px 5px;
+} 
+.link li a{
+    transition: all 0.4s ease 0s;
+}
+.link li a:hover{
+     color: #382eff;
+}
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.link li .laporan{
+    background: #0d00ff;
+    padding: 8px 12px;
+    border-radius: 35px;
+}
+.link li .laporan:hover{
+    color: #000000;
+}
+
+.form{
+    display: flex;
+    justify-content: end;
+    margin-right: 120px;
+    margin-top: 180px;
+
+}
+input[type=text]{
+	width: 400px;
+	padding: 5px 20px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	box-sizing: border-box;
+  }
+  textarea{
+	width: 400px;
+	padding: 5px 20px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	box-sizing: border-box;
+  }
+  .polinema{
+    position: relative;
+    margin-left: 90px;
+}
+  .tabel2 tr td{
+      color: #fff;
+      font-weight: bolder;
+  }
+  input[type=submit] {
+	width: 100%;
+	background-color: rgb(0, 26, 255);
+	color: rgb(255, 255, 255);
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+select{
+    margin: 5px 5px;
+    width: 400px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	box-sizing: border-box;
+    padding: 5px 0;
+}
+.tabel{
+    margin-top: 25px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px 1px #ddd;
+    overflow: hidden;
+    border: none;
+    color: #fff;
+    width: 1500px;
+}
+.tabel th, td{
+    padding:10px 10px;
+    text-align: left;
+}
+.tablemhs{
+    display: flex;
+    justify-content: center;
+    background: #000000;
+}
+.tablemhs label{
+    background-color: black;
+    color: white;
+}
+.tabel tbody tr:nth-child(even) { /* Make table like zebra */
+    background:rgb(0, 17, 248);
+    }
+.foto{
+    position: absolute;
+    margin-left: 70px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    margin-top: -100px;
+}
+.edit{
+    background: #51ff00;
+    padding: 5px 8px;
+    border-radius: 35px;
+    color: #000000;
+  }
+  .delete{
+    background: #ff0000;
+    padding: 5px 8px;
+    border-radius: 35px;
+  }
+::-webkit-scrollbar {
+    display: none;
+  }
+
